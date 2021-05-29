@@ -1,6 +1,6 @@
 Package: vccp
 Title: Vine Copula Change Point Detection in Multivariate Time Series
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given = "Xin",
            family = "Xiong",
@@ -13,14 +13,13 @@ Authors@R:
 Author: Xin Xiong [aut, cre],
   Ivor Cribben [aut]
 Maintainer: Xin Xiong <xinxiong@hsph.harvard.edu>
-Description: Implements the Vine Copula Change Point (VCCP) methodology for the estimation of the number and location of multiple change points in the vine copula structure of multivariate time series. The method uses vine copulas, an adapted binary segmentation algorithm to identify multiple change points, and a likelihood ratio test for inference. The vine copulas allow for various forms of dependence between time series including tail, symmetric and asymmetric dependence. The functions have been extensively tested on simulated multivariate time series data and fMRI data. For details on the VCCP methodology, please see Xiong & Cribben (2021).
+Description: Implements the Vine Copula Change Point (VCCP) methodology for the estimation of the number and location of multiple change points in the vine copula structure of multivariate time series. The method uses vine copulas, various state-of-the-art segmentation methods to identify multiple change points, and a likelihood ratio test or the stationary bootstrap for inference. The vine copulas allow for various forms of dependence between time series including tail, symmetric and asymmetric dependence. The functions have been extensively tested on simulated multivariate time series data and fMRI data. For details on the VCCP methodology, please see Xiong & Cribben (2021).
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.1.1
-Imports: VineCopula, stats, graphics, utils, mosum, mvtnorm
+Imports: VineCopula, stats, graphics, mosum, mvtnorm
 Suggests: knitr, rmarkdown
 NeedsCompilation: no
-Packaged: 2021-03-02 05:22:37 UTC; xiongxin
+Packaged: 2021-05-29 10:28:07 UTC; xiongxin
 Repository: CRAN
-Date/Publication: 2021-03-03 09:20:02 UTC
+Date/Publication: 2021-05-29 10:40:02 UTC
